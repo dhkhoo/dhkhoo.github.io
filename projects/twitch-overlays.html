@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Desiree Khoo | Twitch Overlays </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Desiree Khoo">
+    <meta name="description" content="Desiree Khoo's Website">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    
+    <link rel="stylesheet" href = "../style.css">
+    <link rel="icon" href="../img/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+     <link href="../plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+	<style>     
+        h1, h2{
+            text-align: center;
+            margin:10px;
+        }
+        
+        .columns{
+            width: 550px;
+            margin-right: 10px;
+            margin-top: 20px;
+            float:left;
+        }
+        
+        .thumbnail{
+            width: 390px;
+            float:left;
+            margin: 10px 5px;
+        }
+        
+        @media(max-width: 1250px) {
+            h1{font-size:50px;}
+            #content{width:740px;}
+            .name{display: none;}
+            .thumbnails{width: 750px; margin-left:auto; margin-right:auto;}
+            .thumbnail{width: 350px;}
+            .columns{width: 500px;}
+            .hide{display:none;}
+        }
+        
+        /* Mobile – Screen Sizes ≤ 767px */
+        @media(max-width: 767px){
+            h1{line-height: 50px; font-size: 40px;}
+            h2{font-size:25px;}
+            #content{width:400px;}
+            #nav li{width: 110px;}
+            #nav a{font-size:20px;}
+            .thumbnails{width: 400px;}
+            .columns{width: 400px;}
+        }
+
+	</style>
+</head>
+<body>
+    <div id="header">
+        <div id="nav">
+                <a href="index.html">
+                <img id="logo" src="../img/logo.png" alt="logo">
+                </a>
+            <ul>
+                <li class="floatRight"><a href="../resume.html">RESUME</a></li>
+                <li class="floatRight"><a href="../about.html">ABOUT</a></li>
+				<li class="floatRight"><a href="../index.html">HOME</a></li>
+                <span class="name">Desiree Khoo</span>
+			</ul>
+		</div>
+        <div class="clearfloat"></div>
+        <h1>Twitch Overlays</h1>
+        <h2>Graphic Design</h2>
+    </div>
+    <div id = "content">
+        
+        <p>Under the pandemic, gaming has becoming a large pass-time for many as a way to connect and meet new people on the internet. Streaming games and creating content on Twitch has been a passtime which many of my 
+        friends have picked up over the past couple months. A friend of mine reached out for assistance in making overlays for their Twitch stream and I was able to create these simple, yet aesthetically pleasing animated overlays for their viewers.</p>
+        <div class="thumbnails">
+             <a href="../img/stream-1.png"  data-lightbox="picture" data-alt="Stream Starting Overlay"> <img src="../img/stream-1.png" class="thumbnail"></a>
+            <a href="../img/stream-3.png"  data-lightbox="picture" data-alt="In-Game Overlay"> <img src="../img/stream-3.png" class="thumbnail"></a>
+            <a href="../img/stream-2.png"  data-lightbox="picture" data-alt="Be Right Back Overlay"> <img src="../img/stream-2.png" class="thumbnail hide"></a>
+        </div>
+       
+        <div class="clearfloat"></div>
+        <div class="columns">
+            <h3>Role</h3>
+            <p>Graphic Designer | Video Editor</p>
+        </div>
+        
+        <div class="columns">
+            <h3>Tools</h3>
+             <p>Adobe Photoshop | Adobe Illustrator | Figma | Adobe Premiere Pro</p>
+        </div>
+        
+        <div class="clearfloat"></div>
+        
+    </div>
+  <div id="footer">
+        <ul class="socials">
+            <li class="social-icon"><a href="mailto:dhkhoo@usc.edu" target="_blank"><i class="fas fa-envelope grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.instagram.com/desireekhoo/" target="_blank"><i class="fab fa-instagram grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.linkedin.com/in/desireekhoo/" target="_blank"><i class="fab fa-linkedin-in grey"></i></a></li>
+            <li class="social-icon"><a href="https://github.com/dhkhoo"><i class="fab fa-github grey" target="_blank"></i></a></li>
+        </ul>
+        <p>© 2020 Desiree Khoo</p>
+    </div>
+    
+    <script src="../plugins/lightbox/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>

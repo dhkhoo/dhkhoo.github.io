@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Desiree Khoo | Travels With Sky </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Desiree Khoo">
+    <meta name="description" content="Desiree Khoo's Website">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    
+    <link rel="stylesheet" href = "../style.css">
+    <link rel="icon" href="../img/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="../plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+	<style>     
+        h1{
+            margin:10px 0px 0px 0px;
+            text-align: center;
+        }
+        
+        h2{
+            margin: 0px;
+            text-align: center;
+        }
+        
+        .columns{
+            width: 600px;
+            margin-right: 20px;
+        }
+        
+        .webpage{
+            width: 600px;
+            float:right;
+            margin-left:30px;
+        }
+        
+        .webpage-small{
+            float:right;
+            width:300px;
+            display:none;
+        }
+        
+        
+        
+        a:visited{
+            color: #90B5CB;
+        }
+        
+         /* Tablets - Screen Sizes ≤ 991px */
+        @media(max-width: 1250px) {
+            h1{font-size:50px;}
+            #content{width:740px;}
+            .name{display: none;}
+            .webpage{display:none;}
+            .webpage-small{display:inline-block;}
+        }
+        
+        /* Mobile – Screen Sizes ≤ 767px */
+        @media(max-width: 767px){
+            h1{line-height: 80px; font-size: 40px;}
+            h2{font-size:25px;}
+            #content{width:400px;}
+            .profile{width: 170px;}
+            
+            #nav li{width: 110px;}
+            #nav a{font-size:20px;}
+            
+            .webpage-small{
+                float:none;
+                margin-top: 10px;
+            }
+            .columns{width: 400px;}
+            
+            .image{
+                margin-left:auto;
+                margin-right:auto;
+                width: 300px;
+            }
+        }
+        
+	</style>
+</head>
+<body>
+    <div id="header">
+        <div id="nav">
+                <a href="../index.html">
+                <img id="logo" src="../img/logo.png" alt="logo">
+                </a>
+            <ul>
+                <li class="floatRight"><a href="../resume.html">RESUME</a></li>
+                <li class="floatRight"><a href="../about.html">ABOUT</a></li>
+				<li class="floatRight"><a href="../index.html">HOME</a></li>
+                <span class="name">Desiree Khoo</span>
+			</ul>
+		</div>
+        <div class="clearfloat"></div>
+        
+    </div>
+    <div id = "content">
+        <a href="../img/travels-2.png"  data-lightbox="picture" data-alt="Travels With Sky Webpage Screen Capture"><img src="../img/travels-2.png" alt="Header for Travels with Sky" class="webpage"> </a>
+        <div>        
+            <h1>Travels With Sky</h1>
+            <h2>Blogging Website Design</h2>
+            <div class="image">
+                <a href="../img/travels-2.png"  data-lightbox="picture" data-alt="Travels With Sky Webpage Screen Capture"><img src="../img/travels-2.png" alt="Header for Travels with Sky" class="webpage-small"> </a>
+                <div class="floatclear"></div>
+            </div>
+            <p>This is a website that I created for the travel enthusiast as a way to record and share their adventures to the internet. The site includes a home page, blog, and contact form for the owner to use.  All the images and videos are edited or taken by myself, unless stated otherwise. </p>
+        </div>
+        
+        <p><a href="https://viterbi-web.usc.edu/~dhkhoo/itp104/finalproject/index.html" target="_blank" class="dotted">Website Link</a></p>
+        
+        <div class="columns">
+            <h3>Role</h3>
+            <p>Website Designer, Photographer </p>
+        </div>
+         <div class="columns">
+            <h3>Tools</h3>
+             <p>HTML | CSS | FileZilla | Adobe Photoshop | Adobe Illustrator</p>
+        </div>
+        
+        <div class="clearfloat"></div>
+    </div>
+    <div id="footer">
+        <ul class="socials">
+            <li class="social-icon"><a href="mailto:dhkhoo@usc.edu" target="_blank"><i class="fas fa-envelope grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.instagram.com/desireekhoo/" target="_blank"><i class="fab fa-instagram grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.linkedin.com/in/desireekhoo/" target="_blank"><i class="fab fa-linkedin-in grey"></i></a></li>
+            <li class="social-icon"><a href="https://github.com/dhkhoo"><i class="fab fa-github grey" target="_blank"></i></a></li>
+        </ul>
+        <p>© 2020 Desiree Khoo</p>
+    </div>
+    
+    <script src="../plugins/lightbox/js/lightbox-plus-jquery.js"></script>
+    
+</body>
+</html>

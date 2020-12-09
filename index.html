@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Desiree Khoo </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Desiree Khoo">
+    <meta name="description" content="Desiree Khoo's Website">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    
+    <link rel="stylesheet" href = "style.css">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+	<style>
+        
+        #content {
+            margin-top: 50px;
+        }
+        
+        h1{
+            line-height: 0px;
+        }
+        
+        #projects {
+            position:relative;
+            padding:20px; 
+            background-color: rgba(144, 181, 203, .5);
+        }
+        
+        .item {
+            width: 366px;
+            float:left;
+            margin: 10px;
+        }
+
+        .link {
+            display: block;
+            position: relative;
+            padding-top: 100%;
+            z-index: 0;
+        }
+
+        .caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(225, 225, 225, .7);
+            color: black;
+            opacity: 0;
+            -webkit-transition: .25s opacity;
+            transition: .25s opacity;
+        }
+
+        .title {
+            margin-bottom: 0;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            line-height:1em;
+            letter-spacing:normal;
+            font-weight:500;
+            font-size: 35px;
+            top: 40%;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .subtitle {
+            margin-bottom: 0;
+            margin-top:1em;
+            text-align: center;
+            width: 100%;
+            font-size:20px;
+        }
+
+        .image {
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width:366px;
+            overflow: hidden;
+        }
+
+        .link:hover .caption,
+        .link:focus .caption {
+            opacity: 1;
+        }
+        
+        @media(max-width: 1250px) {
+            h1{font-size:90px;}
+            #content{width:740px;}
+            .item, .caption, .image{width: 330px;}
+            .name{display: none;}
+        }
+        
+        @media(max-width: 767px){
+            h1{line-height: 80px;}
+            #content{width:400px;}
+            #about{width:500px;}
+            #nav li{width: 110px;}
+            #nav a{font-size:20px;}
+        }
+
+	</style>
+</head>
+<body>
+    <div id="header">
+        <div id="nav">
+                <a href="index.html">
+                <img id="logo" src="img/logo.png" alt="logo">
+                </a>
+            <ul>
+                <li class="floatRight"><a href="resume.html">RESUME</a></li>
+                <li class="floatRight"><a href="about.html">ABOUT</a></li>
+				<li class="floatRight"><a class="active" href="index.html">HOME</a></li>
+                <span class="name">Desiree Khoo</span>
+			</ul>
+		</div>
+        <div class="clearfloat"></div>
+    </div>
+    <div id = "content">
+        <h1> Hi, I'm Desiree!</h1>
+        <h2 > Streaming, Designing, & Coding @ <strong>USC</strong>! </h2>
+        <div id = "projects">
+            <div class="item">
+                <a href="projects/travels-with-sky.html" class="link">
+                    <img src="img/travels.png" alt="Thumbnail for Travels With Sky" class="image" />
+                <div class="caption">
+                  <h3 class="title">Travels with Sky<p class="subtitle">Blogging Website Design</p></h3>
+                </div>
+              </a>
+            </div>
+            
+            <div class="item">
+                <a href="projects/hosc-post.html" class="link">
+                    <img src="img/hosc-layout.png" alt="Thumbnail for Social Media Post" class="image" />
+                  <div class="caption">
+                    <h3 class="title">Humans of Silver Creek<p class="subtitle">Social Media Post</p></h3>
+                  </div>
+                </a>
+            </div>
+            
+            <div class="item">
+                <a href="projects/twitch-overlays.html" class="link">
+                    <img src="img/stream.png" alt="Thumbnail for Twitch Overlays" class="image" />
+                  <div class="caption">
+                    <h3 class="title">Twitch Overlays<p class="subtitle">Graphic/Video Design</p></h3>
+                  </div>
+                </a>
+            </div>
+            
+            <div class="item">
+            <a href="projects/college-infographics.html" class="link">
+                <img src="img/college.png" alt="Thumbnail for College Infographics" class="image"/>
+                <div class="caption">
+                  <h3 class="title">College Infographics<p class="subtitle">Graphic Design</p></h3>
+                </div>
+              </a>
+            </div>
+            <div class="item">
+                <a href="projects/mixed-sc.html" class="link">
+                    <img src="img/mixed-sc-logo.png" alt="Thumbnail for Mixed SC" class="image"/>
+                  <div class="caption">
+                    <h3 class="title">Mixed SC<p class="subtitle">Logo + T-Shirt Design</p></h3>
+                  </div>
+                </a>
+            </div>
+            
+            <div class="item">
+            <a href="projects/sustainability-infographics.html" class="link">
+                <img src="img/sustainability.png" alt="Thumbnail for Sustainability Infographics" class="image"/>
+                <div class="caption">
+                  <h3 class="title">Sustainability Infographics<p class="subtitle">Graphic Design</p></h3>
+                </div>
+              </a>
+            </div>
+            <div class="clearfloat"></div>
+        </div>
+        
+        <div class="button">
+            <a href="mailto:dhkhoo@usc.edu">Contact Me</a>
+        </div> 
+        
+    </div>
+    <div id="footer">
+        <ul class="socials">
+            <li class="social-icon"><a href="mailto:dhkhoo@usc.edu" target="_blank"><i class="fas fa-envelope grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.instagram.com/desireekhoo/" target="_blank"><i class="fab fa-instagram grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.linkedin.com/in/desireekhoo/" target="_blank"><i class="fab fa-linkedin-in grey"></i></a></li>
+            <li class="social-icon"><a href="https://github.com/dhkhoo"><i class="fab fa-github grey" target="_blank"></i></a></li>
+        </ul>
+        <p>© 2020 Desiree Khoo</p>
+    </div>
+        
+    
+</body>
+</html>

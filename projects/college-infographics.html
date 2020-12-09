@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Desiree Khoo | College Infographics </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Desiree Khoo">
+    <meta name="description" content="Desiree Khoo's Website">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    
+    <link rel="stylesheet" href = "../style.css">
+    <link rel="icon" href="../img/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="../plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    
+    
+	<style>     
+        h1, h2{
+            text-align: center;
+            margin: 0px 0px 20px 0px;
+        }
+        
+        .column-1 {
+            float:left;
+            width:470px;
+            margin-right: 30px;
+        }
+        
+        .columns {
+            float:left;
+            width:300px;
+        }
+        
+        .infographic{
+            width: 285px;
+            margin: 5px;
+        }
+        
+        .info-wrapper{
+            margin-left:auto;
+            margin-right:auto;
+            width: 1200px;
+        }
+        
+        @media(max-width: 1250px) {
+            h1{font-size:50px;}
+            #content{width:767px;}
+            .name{display: none;}
+            .info-wrapper{width: 750px; margin-left:auto; margin-right:auto;}
+            .infographic{width: 300px;}
+            .column-1{width: 700px;}
+            .columns{float:none;}
+        }
+        
+        /* Mobile – Screen Sizes ≤ 767px */
+        @media(max-width: 767px){
+            h1{line-height: 50px; font-size: 40px;}
+            h2{font-size:25px;}
+            #content{width:400px;}
+            #nav li{width: 110px;}
+            #nav a{font-size:20px;}
+            .column-1{width: 400px;}
+            .info-wrapper{width: 400px; margin-left:auto; margin-right:auto;}
+            .infographic{width: 350px;}
+            .hide{display:none;}
+        }
+        
+
+	</style>
+</head>
+<body>
+    <div id="header">
+        <div id="nav">
+                <a href="../index.html">
+                <img id="logo" src="../img/logo.png" alt="logo">
+                </a>
+            <ul>
+                <li class="floatRight"><a href="../resume.html">RESUME</a></li>
+                <li class="floatRight"><a href="../about.html">ABOUT</a></li>
+				<li class="floatRight"><a href="../index.html">HOME</a></li>
+                <span class="name">Desiree Khoo</span>
+			</ul>
+		</div>
+        <div class="clearfloat"></div>
+        <h1>College Infographic Collection</h1>
+        <h2>Graphic Designs</h2>
+    </div>
+    <div id = "content">
+        <div class="column-1">
+            <h3>Purpose</h3>
+            <p>As a way to encourage high school students to apply and attend college, my team and I created a collection of college infographics to help inform and promote higher education in our lower-income neighborhood.</p>
+        </div>
+        <div class="columns">
+            <h3>Role</h3>
+            <p>Graphic Designer </p>
+        </div>
+         <div class="columns">
+            <h3>Tools</h3>
+             <p>Adobe Photoshop | Adobe Illustrator | Canva</p>
+        </div>
+        <div class="clearfloat"></div> 
+        
+        <div class="info-wrapper">
+            <a href="../img/EVC.png"  data-lightbox="picture" data-alt="Evergreen Valley College Infographic"> <img src="../img/EVC.png" class="infographic hide"></a>
+            <a href="../img/Foothill.png" data-lightbox="picture" data-alt="Foothill College Infographic"> <img src="../img/Foothill.png" class="infographic hide"> </a>
+            <a href="../img/SCU.png" data-lightbox="picture" data-alt="Santa Clara University Infographic"> <img src="../img/SCU.png" class="infographic"></a>
+            <a href="../img/USF.png"  data-lightbox="picture" data-alt="University of San Francisco Infographic"><img src="../img/USF.png" class="infographic"> </a>
+        </div>
+
+    </div>
+    <div id="footer">
+        <ul class="socials">
+            <li class="social-icon"><a href="mailto:dhkhoo@usc.edu" target="_blank"><i class="fas fa-envelope grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.instagram.com/desireekhoo/" target="_blank"><i class="fab fa-instagram grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.linkedin.com/in/desireekhoo/" target="_blank"><i class="fab fa-linkedin-in grey"></i></a></li>
+            <li class="social-icon"><a href="https://github.com/dhkhoo"><i class="fab fa-github grey" target="_blank"></i></a></li>
+        </ul>
+        <p>© 2020 Desiree Khoo</p>
+    </div>
+        
+    <script src="../plugins/lightbox/js/lightbox-plus-jquery.js"></script>
+    
+</body>
+</html>
