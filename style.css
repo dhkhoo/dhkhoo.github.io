@@ -1,15 +1,6 @@
 .name {
     font-family: 'Open Sans', sans-serif;
-    float:left;
     font-size: 35px;
-    margin-left: 10px;
-}
-
-#content {
-    margin:0px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 h1{
@@ -37,59 +28,30 @@ p{
     font-size: 20px;
 }
 	
-.clearfloat {
-    clear: both;
-}
-
-.floatLeft{
-    float:left;
-}
-
-.floatRight{
-    float:right;
-}
 
 #logo{
-    margin:0px;
-    float:left;
     width: 90px;
-    z-index: 100;    
 }
 
-#nav {
-    z-index: 100;
-    top:0px;
-    right:0px;
-    left:0px;
-    margin: 0px 20px;
-    padding-top: 5px;
-    margin:0px;
-    padding: 15px 20px;
-    list-style:none;
-}
-
-#nav li{
-    text-align: center;
-    line-height: 50px;
-    list-style: none;
-    width: 160px;
-}
-
-#nav a{
+.nav-link {
     font-family: 'Open Sans', sans-serif;
-    display:block;
-    text-decoration: none;
-    color:#808080;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 400;
 }
 
-#nav a:hover {
-    color:black;
+.nav-item {
+    margin: 0px 25px;
 }
 
-#nav a.active {
-    color:#90B5CB;
+.nav-item > .active {
+    color: #90B5CB !important;
 }
+
+
+.nav-item > a:hover {
+    color:black !important;
+}
+
 
 #footer {
     text-align: center;
@@ -101,25 +63,16 @@ p{
     margin-right: 30px;
 }
 
-.button{
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    padding: 20px;
+.btn-primary{
+    font-family: 'Open Sans', sans-serif;
     background-color:#808080;
-    text-align: center;
-    border-radius: 3%;
-}
-        
-.button > a {
-    text-decoration: none;
     color:white;
     font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
+    border:none;
+    
 }
 
-.button:hover {
+.btn-primary:hover {
      background-color: #90B5CB;
 }
 
@@ -138,6 +91,15 @@ p{
 
 
 .grey:hover{
+    color: #90B5CB;
+}
+
+.contact{
+    width: 250px;
+    margin: 10px;
+}
+
+a{
     color: #90B5CB;
 }
 

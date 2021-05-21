@@ -7,10 +7,11 @@
     <meta name="description" content="Desiree Khoo's Website">
     <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
     
-    <link rel="stylesheet" href = "style.css">
     <link rel="icon" href="img/favicon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href = "style.css">
     
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -65,46 +66,38 @@
             color:black;
         }
         
-         /* Tablets - Screen Sizes ≤ 991px */
-        @media(max-width: 1250px) {
-            h1{font-size:50px;}
-            #content{width:740px;}
-            .name{display: none;}
-        }
-        
-        /* Mobile – Screen Sizes ≤ 767px */
-        @media(max-width: 767px){
-            h1{line-height: 50px; font-size: 40px;}
-            h2{font-size:25px;}
-            #content{width:400px;}
-            
-            #nav li{width: 110px;}
-            #nav a{font-size:20px;}
-    
-            .column-1{width:400px;}
-            .column-2{width:400px;}
-        }
         
 	</style>
 </head>
 <body>
-    <div class="header">
-        <div id="nav">
-                <a href="index.html">
-                <img id="logo" src="img/logo.png" alt="logo">
-                </a>
-            <ul>
-                <li class="floatRight"><a class="active" href="resume.html">RESUME</a></li>
-                <li class="floatRight"><a href="about.html">ABOUT</a></li>
-				<li class="floatRight"><a href="index.html">HOME</a></li>
-                <span class="name">Desiree Khoo</span>
-			</ul>
-		</div>
-        <div class="clearfloat"></div>
-        
+   
+
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container-fluid">
+    <a class="navbar-brand name" href="index.html">
+        <img id="logo" src="img/logo.png" alt="" width="90" height="90" class="d-inline-block align-text-top">
+    </a>
+    <span class="name">Desiree Khoo</span>
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="collapseNavbar">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link " href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="resume.html">RESUME</a>
+            </li>
+        </ul>
     </div>
+</div>
+</nav>
     
-    <div id = "content">
+    <div class="container">
         <h1>Resume</h1>
         <h2>Here's my resume, or download it <a class="blue dotted" href="Desiree_Khoo_Resume.pdf" target="_blank">here</a> if you'd like.</h2>
         
@@ -113,36 +106,43 @@
         <h4>University of Southern California</h4>
         <p class="subheading">B.S. Computer Science & Business Administration · May 2023 <br>
             Minor in Web Technologies & Applications </p> 
-        <p>∎ Presidential Scholar | GPA: 3.63 </p>
+        <p>∎ Presidential Scholar | GPA: 3.7 </p>
         <p>∎ Coursework: Organizational Behavior F'19, Data Structures & Algorithms F’20, Full-Stack Web Development S'21, Principles of Software Development S'21</p>   
         </div>
            
         <h3>EXPERIENCE</h3> 
         <div class="section">
-        <h4>Twitch TV</h4>
-        <p class="subheading">Affiliated Streamer/Content Creator · May 2020 to Present</p>
-        <p>∎ Performed to a growing audience of 5k followers with live streams and content creation </p>
-        <p>∎ Collaborated with various other content creators to entertain and engage with viewers</p>
-        <p>∎ Organized and fundraised over $500 during a charity stream for Rise Above the Disorder</p>
-           
+            <h4>Twitch TV</h4>
+            <p class="subheading">Affiliated Streamer/Content Creator · May 2020 to Present</p>
+            <p>∎ Performed to a growing audience of 6k followers with live streams and content creation </p>
+            <p>∎ Collaborated with various other content creators to entertain and engage with viewers</p>
+            <p>∎ Organized and fundraised over $500 during a charity stream for Rise Above the Disorder</p>
         </div>
         
         <h3>PROJECTS</h3> 
+
         <div class="section">
-            <h4><a href="https://xd.adobe.com/view/93ba8f93-5270-4370-be9f-cec6e059ccd2-c6e9/?fullscreen" target="_blank">TVwU</a></h4>
+            <h4> <a href="https://devpost.com/software/bucket-of-care" target="_blank" class="black"> Bucket of Care </a></h4>
+            <p class="subheading">HackSC 2021 · February 2021</p>
+            <p>∎ Appsmith Sponsor Prize Runner Up</p>
+            <p>∎ Developed an application using Appsmith and CockroachDB that connects users and promotes kindness through anonymous messages of support from peers</p>
+        </div>
+
+        <div class="section">
+            <h4><a href="https://xd.adobe.com/view/93ba8f93-5270-4370-be9f-cec6e059ccd2-c6e9/?fullscreen" target="_blank" class="black">TVwU</a></h4>
             <p class="subheading">Adobe Creative Jam · June 2020</p>
             <p>∎ Developed and wireframed a web application design for the sharing/watching of media content over a period of 2 days</p>
         </div>
         
         <div class="section">
-            <h4> <a href="https://xd.adobe.com/view/4e351a07-1905-404f-403f-97b2471c18e7-3804/?fullscreen" target="_blank"> Booking Together </a></h4>
+            <h4> <a href="https://xd.adobe.com/view/4e351a07-1905-404f-403f-97b2471c18e7-3804/?fullscreen" target="_blank" class="black"> Booking Together </a></h4>
             <p class="subheading">Adobe Creative Jam · April 2020</p>
             <p>∎ Created a UI design for a mobile scrapbooking application</p>
         </div>
         
         <div class="section">
             <h4> <a href="https://devpost.com/software/run-ibcl0u" target="_blank" class="black"> Run! </a></h4>
-            <p class="subheading">AthenaHacks 2020</p>
+            <p class="subheading">AthenaHacks 2020 · March 2020</p>
             <p>∎ Winner of Best Embedded Hack</p>
             <p>∎ Used an Arduino and accelerometer in a game-like program to make exercising interactive and entertaining for users</p>
         </div>
@@ -168,9 +168,10 @@
             <p><strong>Product/Graphic Design:</strong> Figma, Adobe XD, Adobe Illustrator, Adobe InDesign, Adobe Photoshop</p>
             <p><strong>Software/Web Development:</strong> HTML, CSS, Java, JavaScript, PHP, C++, Visual Studio, Ellipse, Docker, GDB, MySQL</p>
         </div>
-       <div class="button">
-            <a href="mailto:dhkhoo@usc.edu">Contact Me</a>
-        </div> 
+
+       <div class="d-grid gap-2 mx-auto contact">
+        <a class="btn btn-primary" role="button" href="mailto:dhkhoo@usc.edu">Contact Me </a>  
+        </div>
     </div>
     <div id="footer">
         <ul class="socials">
@@ -181,7 +182,7 @@
         </ul>
         <p>© 2020 Desiree Khoo</p>
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     
 </body>
 </html>
