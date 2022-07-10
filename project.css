@@ -1,34 +1,32 @@
 .icon{
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     margin-top: -50px;
     margin-left: -50px;
 }
 .header{
     background-repeat:no-repeat;
-    background-position:center;
     padding:0;
     margin:0;
     background-size: 100% auto;
     position:relative;
+
 }
 
 .name{
     color:white;
 }
 h1.white-text{
-    margin:20px;
     text-align: center;
     color:white;
-    padding-top:200px;
+    padding-top:100px;
 }
 
 h2.white-text{
-    margin: 20px;
     text-align: center;
     color:white;
-    padding-bottom: 200px;
+    padding-bottom: 70px;
 }
 
 
@@ -49,9 +47,9 @@ hr:after {
     top: -13px;
 }
 
-.webpage{
-    width: 60%;
-    margin: auto;
+.view-more{
+    width: 350px;
+    margin: 10px;
 }
 
 .padding{

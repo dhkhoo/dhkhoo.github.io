@@ -15,7 +15,6 @@ h2{
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
     font-weight:400;
-    margin-bottom: 10px;
 }
 
 h3{
@@ -24,15 +23,22 @@ h3{
     font-size: 25px;
 }
 
-p{
+h4{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 600;
 }
-	
+
+p{
+    font-family: 'Crimson Pro', serif;
+    font-size: 22px;
+}
 
 #logo{
-    width: 90px;
+    width: 150px;
 }
+
+.navbar{margin-bottom: 20px;}
 
 .nav-link {
     font-family: 'Noto Sans', sans-serif;
@@ -104,5 +110,6 @@ a{
     color: #90B5CB;
 }
 
-
-
+.white{
+    color: white;
+}
