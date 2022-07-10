@@ -1,0 +1,64 @@
+.icon{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.header{
+    background-repeat:no-repeat;
+    background-position:center;
+    padding:0;
+    margin:0;
+    background-size: 100% auto;
+    position:relative;
+}
+
+.name{
+    color:white;
+}
+h1.white-text{
+    margin:20px;
+    text-align: center;
+    color:white;
+    padding-top:200px;
+}
+
+h2.white-text{
+    margin: 20px;
+    text-align: center;
+    color:white;
+    padding-bottom: 200px;
+}
+
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #90B5CB;
+    overflow: visible;
+    text-align: center;
+    height: 10px;
+}
+
+hr:after {
+    background: #fff;
+    content: '✽';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.webpage{
+    width: 60%;
+    margin: auto;
+}
+
+.padding{
+    padding: 20px;
+}
+
+#intro, #problem, #research, #wireframing, #testing, #prototyping, #designs, #reflection{
+    padding: 50px 0px;
+}
+
