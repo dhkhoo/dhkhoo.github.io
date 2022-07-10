@@ -41,22 +41,23 @@
             background-color: #f5f5f5;
         }
 
+        .pictures{
+            width:75%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
         @media(max-width: 1250px) {
             h1{font-size:50px;}
             .header{background-size:cover;}
-            #content{width:740px;}
-            .thumbnails{width: 750px; margin-left:auto; margin-right:auto;}
-            .thumbnail{width: 350px;}
         }
         
         /* Mobile – Screen Sizes ≤ 767px */
         @media(max-width: 767px){
             h1{line-height: 50px; font-size: 40px;}
             h2{font-size:25px;}
-            .thumbnails{width: 400px;}
         }
 
-        
 	</style>
 </head>
 <body>
@@ -93,7 +94,6 @@
 </div>
 
     <div class = "container">
-
         <div class="row" id="intro">
             <div class="col-sm-8">
                 <h4>Introduction</h4>
@@ -137,8 +137,7 @@
             <p>Using the aesthetics and colors from the mood board as the basis for my design,
                 I developed an application design which is both fun and professional.
                 This including a mix of warm and cold tones to accent the modern features of my design. </p>
-            <!-- TODO: make the image fit correctly ... align it to the center-->
-            <a href="pro-pods-moodboard.png" data-lightbox="moodboard" data-alt="Pro Pods Moodboard" class="webpage"><img src="pro-pods-moodboard.png" alt="Pro Pods Moodboard" > </a>
+            <img class="pictures" src="pro-pods-moodboard.png" alt="Pro Pods Moodboard">
         </div>
 
 
@@ -147,20 +146,12 @@
             <p>During this time, I also started working on some prototypes of small components within my application, for such as horizontal scrolling of the different type of room accommodations.
                 During this process, I had to decide which order to place the accommodations; from most to least expensive (Option A) or the least to most expensive (Option B).</p>
 
-            <div class="row row-cols-1 row-cols-sm-2">
-                <div class="col d-flex justify-content-center">
-                    <a href="Pods-A.png" data-lightbox="options" data-alt="Pro Pods Option A" ><img src="Pods-A.png" alt="Pro Pods Option A"> </a>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col d-flex justify-content-center gy-3">
+                    <img class="pictures" src="Pods-A.png" alt="Pro Pods Option A">
                 </div>
-                <div class="col d-flex justify-content-center">
-                    <a href="Pods-B.png" data-lightbox="options" data-alt="Pro Pods Option B"><img src="Pods-B.png" alt="Pro Pods Option B"> </a>
-                </div>
-            </div>
-            <div class="row row-cols-1 row-cols-sm-2">
-                <div class="col d-flex justify-content-center">
-                    <p>Option A</p>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <p>Option B</p>
+                <div class="col d-flex justify-content-center gy-3">
+                    <img class="pictures" src="Pods-B.png" alt="Pro Pods Option B">
                 </div>
             </div>
             <p>After showing the two options to a set of possible users, I found that Option B would be the better
@@ -168,50 +159,41 @@
         </div>
 
 
-        <div class="row" id="prototyping">
-            <h4>Prototyping</h4>
+        <div class="row row-cols-1 row-cols-lg-2" id="prototyping">
             <div class="col">
-            <p>To ensure the interactivity of my design, I made sure to make a number of connections between frames to
+                <h4>Prototyping</h4>
+                <p>To ensure the interactivity of my design, I made sure to make a number of connections between frames to
                 allow users to understand the full experience of this application. The sidebar menu was the main driver
                 of the interactivity and connectivity of the frames within my design. </p>
             </div>
             <div class="col">
-                <div class="col d-flex justify-content-center">
-                    <a href="prototyping.png" data-lightbox="prototype" data-alt="Pro Pods prototyping flows screen capture" class="webpage"><img src="prototyping.png" alt="Pro Pods prototyping flows screen capture"> </a>
-                </div>
+                <img class="pictures" src="prototyping.png" alt="Pro Pods prototyping flows screen capture">
             </div>
 
         </div>
 
 
-        <div class="row" id="designs">
+        <div class="row" >
             <h4>High-Fidelity Designs</h4>
             <p>My final designs for this application results in five different interactive frames, with my home page
                 including the number of features, such as horizontal and vertical scrolling and a number of overlays upon the various amenities offered at Pro Pods. </p>
-            <div class="row row-cols-1 row-cols-sm-3">
-                <div class="col d-flex justify-content-center">
-                    <a href="Frame-1.png" data-lightbox="frame" data-alt="Screen capture of Pro Pods home screen" class="webpage"><img src="Frame-1.png" alt="Screen capture of Pro Pods home screen" > </a>
+            <div class="row row-cols-1 row-cols-lg-3" id="designs">
+                <div class="col d-flex justify-content-center gy-3">
+                    <img src="Frame-1.png" alt="Screen capture of Pro Pods home screen" >
                 </div>
-                <div class="col d-flex justify-content-center">
-                    <a href="Frame-2.png" data-lightbox="frame" data-alt="Screen capture of Pro Pods Calendar" class="webpage"><img src="Frame-2.png" alt="Screen capture of Pro Pods Calendar" > </a>
+                <div class="col d-flex justify-content-center gy-3">
+                    <img src="Frame-2.png" alt="Screen capture of Pro Pods Calendar" >
                 </div>
-                <div class="col d-flex justify-content-center">
-                    <a href="Frame-3.png" data-lightbox="frame" data-alt="Screen capture of Pro Pods Location" class="webpage"><img src="Frame-3.png" alt="Screen capture of Pro Pods Location"> </a>
+                <div class="col d-flex justify-content-center gy-3">
+                    <img src="Frame-3.png" alt="Screen capture of Pro Pods Location">
                 </div>
-            </div>
+                <div class="col d-flex justify-content-center gy-3">
+                    <img src="Frame-4.png" alt="Screen capture of Pro Pods Log In Screen">
+                </div>
+                <div class="col d-flex justify-content-center gy-3">
+                    <img src="Frame-5.png" alt="Screen capture of Pro Pods Sign Up Screen">
+                </div>
 
-            <div class="padding"></div>
-
-            <div class="row row-cols-1 row-cols-sm-3">
-                <div class="col d-flex justify-content-center">
-                    <a href="Frame-4.png" data-lightbox="frame" data-alt="Screen capture of Pro Pods Log In Screen" class="webpage"><img src="Frame-4.png" alt="Screen capture of Pro Pods Log In Screen"> </a>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <a href="Frame-5.png" data-lightbox="frame" data-alt="Screen capture of Pro Pods Sign Up Screen" class="webpage"><img src="Frame-5.png" alt="Screen capture of Pro Pods Sign Up Screen"> </a>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <a href="completed-frames.png" data-lightbox="frame" data-alt="Screen capture of all frames" class="webpage"><img src="completed-frames.png" alt="Screen capture of all frames"> </a>
-                </div>
             </div>
         </div>
 
@@ -223,6 +205,9 @@
                 and prototype an application while also improving my understanding of design theory and user-interviewing.
                 Next time, I want to spend more time in the user research section of my design and be able to get even
                 more feedback from potential users. </p>
+            <div class="d-grid gap-2 mx-auto view-more">
+                <a type="button" class="btn btn-primary" href="https://www.figma.com/proto/5r95yafbOZ0JIjAaDCQanZ/A12%3A-Accommodations-App?scaling=scale-down&page-id=0%3A1&starting-point-node-id=22%3A18&node-id=22%3A18" target="_blank">View the Interactive Prototype</a>
+            </div>
         </div>
 
 
@@ -235,7 +220,7 @@
             <li class="social-icon"><a href="mailto:dhkhoo@usc.edu" target="_blank"><i class="fas fa-envelope grey"></i></a></li>
             <li class="social-icon"><a href="https://www.instagram.com/desireekhoo/" target="_blank"><i class="fab fa-instagram grey"></i></a></li>
             <li class="social-icon"><a href="https://www.linkedin.com/in/desireekhoo/" target="_blank"><i class="fab fa-linkedin-in grey"></i></a></li>
-            <li class="social-icon"><a href="https://github.com/dhkhoo" target="_blank"><i class="fab fa-github grey"></i></a></li>
+            <li class="social-icon"><a href="https://github.com/dhkhoo" target="_blank"><i class="fab fa-github grey" ></i></a></li>
         </ul>
         <p>© 2022 Desiree Khoo</p>
     </div>
