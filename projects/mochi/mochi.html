@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Desiree Khoo | Mochi </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Desiree Khoo">
+    <meta name="description" content="Desiree Khoo's Website">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    
+    <link rel="icon" href="../../img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href = "../../style.css">
+    <link rel="stylesheet" href="../../project.css">
+    <link href="../../plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8QK1297FE"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-D8QK1297FE');
+    </script>
+    
+	<style>
+        .header{
+            background-image: url("header-img.png");
+
+        }
+
+        .logo{
+            width: 200px;
+        }
+
+        h1{
+            margin:20px;
+            text-align: center;
+        }
+        
+        h2{
+            margin: 20px;
+            text-align: center;
+        }
+
+
+        @media(max-width: 1250px) {
+            h1{font-size:50px;}
+            .header{background-size:cover;}
+        }
+        
+        /* Mobile – Screen Sizes ≤ 767px */
+        @media(max-width: 767px){
+            h1{line-height: 50px; font-size: 40px;}
+            h2{font-size:25px;}
+            .header{background-size:cover;}
+        }
+        
+	</style>
+</head>
+<body>
+
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand name" href="../../index.html">
+                <img id="logo" src="../../img/logo-white.svg" alt="Desiree Khoo logo" class="d-inline-block align-text-top">
+            </a>
+            <span class="name">Desiree Khoo</span>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="collapseNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../resume.html">RESUME</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <img class="icon" src="dango-icon.svg" alt="Dango Icon">
+    <h1 class="white-text">Mochi</h1>
+    <h2 class="white-text">Mobile Application Interface Design</h2>
+</div>
+
+<div class = "container">
+    <div class="row" id="intro">
+        <div class="col-sm-8">
+            <h4>Introduction</h4>
+            <p> Mochi is a wellness and organizational mobile application which is catered toward content creators. It's goal to help create
+                structure in the lives of their users and offer customization goals for users to work toward. It was
+                developed during CreateSC 2022, a virtual UX/UI designathon hosted by Innovative Design at USC.
+                It was ideated and designed over a span of 24 hours by two teammates and myself. </p>
+
+            <p><a href="https://www.eventbrite.com/e/createsc-2022-virtual-designathon-tickets-306089460817">CreateSC Eventbrite</a></p>
+        </div>
+
+        <div class="col-sm-4">
+            <h3>Role</h3>
+            <p>User Interface Designer</p>
+            <h3>Duration</h3>
+            <p>24 hours</p>
+            <h3>Tools</h3>
+            <p>Figma</p>
+        </div>
+    </div>
+
+
+    <div class="row" id="problem">
+        <h4>Problem Statement</h4>
+
+        <p>The following is an abridged version of the brief was given to my team. View the full prompt here:
+            <a href="https://innodatusc.notion.site/CreateSC-2022-Prompt-8786b76fdee34761bb15517c94dc3a0d" class="dotted" target="_blank">Notion Prompt</a></p>
+
+        <blockquote cite="https://innodatusc.notion.site/CreateSC-2022-Prompt-8786b76fdee34761bb15517c94dc3a0d">
+            <p>"A fundamental basis of good product design is an extensive understanding of user needs, and how to address those needs within design.
+                Traditionally, user research is conducted with the assumption that the user knows exactly what they need, but oftentimes...
+                that assumption can lead to a negative influence on the user...This is why user wellness is important. A focus on user wellness
+                means that the designer incorporates design solutions that empower the user, while still aligning with business goals."</p>
+            <p><strong>Our Task:</strong> Design a mobile app that promotes and reflects the principles of wellness in design</p>
+        </blockquote>
+
+    </div>
+
+    <div class="row" id="research">
+        <h4>User Research Process</h4>
+        <p>With our task in mind, we began brainstorming with a focus on designing to address an issue which we all cared about.
+            Examples of markets we looked into were gaming, fashion, livestreaming, and content creation. In the end, our
+            initial research and understanding of these different markets found that the largest gap for wellness was in the growing field of content creation. </p>
+        <p>Content creation as a profession is very new with limited research and understanding of the experiences of those in the career. However, as someone
+        who has had the opportunity to connect and meet those in the industry, some qualms I've heard include lack of work-life balance and burnout due to lack of structure in their lives.</p>
+        <p>To ensure that we addressed the most significant wellness issues in content creation, we employed the use of a
+            survey to collect information from creators and livestreamers of all sizes. Some comments that they made include: </p>
+        <p>∎ “I'm not able to manage the stress [of content creation] and I end up not being able to stream nearly as much because school and sports”</p>
+        <p>∎ “I'm not doing a great job balancing [content creation]. Content creation is a lot more fun for me than doing stuff I should be doing, so I kinda just let [my other work] pile up.”</p>
+        <p>∎ “[I need to remind myself] to do simple things like drinking water”</p>
+        <p>Based on these survey results, we determined what frames we wanted to develop, such as calendars and mood trackers, and it
+            allowed us to narrow down type of content we'd be providing on our application. </p>
+    </div>
+
+
+    <div class="row" id="wireframing">
+        <h4>Wireframing</h4>
+        <p>To begin our design process, we first compiled a moodboard to bring our design together. Below is our initial inspiration, a user persona, and color scheme
+        which we carried throughout our design. </p>
+        <img class="pictures" src="mochi-moodboard.png" alt="Mochi Moodboard">
+        <p>With our basic theming and understanding of our audience completed, our wireframe planning moved toward creating a flowchart to outline the user experience.</p>
+        <img class="pictures" src="mochi-user-experience-flows.png" alt="Mochi User Experience Flows">
+    </div>
+
+
+    <div class="row" id="prototyping">
+        <h4>Prototyping</h4>
+        <p>We then began prototyping our application using Figma. We developed a design system which would allow the 3 of us to create consistant designs over the next 24 hours.
+        In developing the design system, we wanted to focus on developing microanimations which would make it easier for the user to interact with our application. </p>
+        <img class="pictures" src="mochi-design-system.png" alt="Mochi Design System">
+        <p>Using the design system above, we developed the application's user interface frames and began prototyping by
+            connecting the frames together in Figma. A lot of the interactivity was connected to master components within the design system. For example, the navigation bar.</p>
+        <div class="row row-cols-1 row-cols-lg-2" >
+            <div class="col d-flex justify-content-center gy-3">
+                <img class="pictures" src="prototyping-1.png" alt="Mochi prototyping flows screen capture">
+            </div>
+            <div class="col d-flex justify-content-center gy-3">
+                <img class="pictures" src="prototyping-2.png" alt="Mochi prototyping flows screen capture">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row" >
+        <h4>High-Fidelity Designs</h4>
+        <p>The final designs for Mochi's mobile application include 18 frames, 5 overlays, a number of horizontal and vertical scrolling, and interactive microanimations.
+            Below are 3 of the frames -- if you'd like to view the design system and wireframes, feel free to click this
+            <a href="https://www.figma.com/file/8w06UVrWEDYsdSmv9txcOU/Mochi-%7C-CreateSC-2022?node-id=12%3A2206" target="_blank" class="dotted">link</a>. Otherwise, click the button to view the interactive prototype.</p>
+
+        <div class="row row-cols-1 row-cols-lg-3" id="designs">
+            <div class="col d-flex justify-content-center gy-3">
+                <img class="pictures" src="frame-3.png" alt="Screen capture of Mochi">
+            </div>
+            <div class="col d-flex justify-content-center gy-3">
+                <img class="pictures" src="frame-4.png" alt="Screen capture of Mochi">
+            </div>
+            <div class="col d-flex justify-content-center gy-3">
+                <img class="pictures" src="frame-5.png" alt="Screen capture of Mochi">
+            </div>
+        </div>
+        <div class="d-grid gap-2 mx-auto view-more">
+            <a type="button" class="btn btn-primary" href="https://www.figma.com/proto/8w06UVrWEDYsdSmv9txcOU/Mochi-%7C-CreateSC-2022?node-id=12%3A2237&scaling=scale-down&page-id=12%3A2206&starting-point-node-id=12%3A2237" target="_blank">View the Interactive Prototype</a>
+        </div>
+    </div>
+
+    <div class="row" id="reflection">
+        <h4>Reflection</h4>
+        <p>Working on Mochi was one of the best experiences I've had developing a UX/UI solution. Even though time constraints prevented us from
+        creating more interactive features and polishing up the design, I had the opportunity to practice using my Figma skills to
+        create something which I believe would help many current and upcoming content creators -- some of which include close friends. </p>
+        <p>Having only 3 people working on this project taught us a lot about managing our time and focusing on only developing features which we believed would be the most impactful.
+        Generally, it made sure we were realistic and focused on the main purpose of this product. </p>
+        <div class="col d-flex justify-content-center gy-3">
+            <img class="logo"  src="mochi-logo.png" alt="Mochi Logo">
+        </div>
+        <p>As someone who is not classically trained as an artist, I learned a lot about digital art in Figma, especially when designing the logo of application. I think the theming
+            was very cohesive and added to our application's visual design. </p>
+        <p>In the future, there's a number of things which I'd love to implement or ideate. On the design side, this includes improving notifications and creating smoother transitions.
+            In terms of user research, I'd love to do more interviewing and A/B testing on our designs to ensure that the design is initutive and address the concerns of our content creator audience.
+            Lastly, as someone who also has a Computer Science and coding background, there were a number of features and ideas which my team had but weren't able to implement as a result of
+            the limitations in Figma. For example, local storage and visualization of things altered by the user. I think these features would bring our application to life. </p>
+    </div>
+
+
+
+
+</div>
+<hr>
+
+
+  <div id="footer">
+        <ul class="socials">
+            <li class="social-icon"><a href="mailto:dhkhoo@usc.edu" target="_blank"><i class="fas fa-envelope grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.instagram.com/desireekhoo/" target="_blank"><i class="fab fa-instagram grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.linkedin.com/in/desireekhoo/" target="_blank"><i class="fab fa-linkedin-in grey"></i></a></li>
+            <li class="social-icon"><a href="https://github.com/dhkhoo" target="_blank"><i class="fab fa-github grey"></i></a></li>
+        </ul>
+        <p>© 2021 Desiree Khoo</p>
+    </div>
+    <script src="../../plugins/lightbox/js/lightbox-plus-jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
