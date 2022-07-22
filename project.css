@@ -4,14 +4,20 @@
     left: 50%;
     margin-top: -50px;
     margin-left: -50px;
+    width:95px;
+    height:95px;
 }
+
+.nav-item > a:hover {
+    color:white !important;
+}
+
 .header{
     background-repeat:no-repeat;
     padding:0;
     margin:0;
     background-size: 100% auto;
     position:relative;
-
 }
 
 .name{
@@ -54,6 +60,13 @@ hr:after {
 
 .padding{
     padding: 20px;
+}
+
+.pictures{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:20px;
 }
 
 #intro, #problem, #research, #wireframing, #testing, #prototyping, #designs, #reflection{
