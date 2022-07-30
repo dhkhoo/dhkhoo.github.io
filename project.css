@@ -67,9 +67,25 @@ hr:after {
     margin-left:auto;
     margin-right:auto;
     padding-bottom:20px;
+    object-fit: contain;
 }
 
 #intro, #problem, #research, #wireframing, #testing, #prototyping, #designs, #reflection{
     padding: 50px 0px;
+}
+
+/* Mobile – Screen Sizes ≤ 767px */
+@media(max-width: 767px){
+    h1{line-height: 50px; font-size: 40px;}
+    h2{font-size:25px;}
+    .frames{
+        width: 50%;
+    }
+}
+
+@media(max-width: 1250px) {
+    h1{font-size:50px;}
+    .header{background-size:cover;}
+
 }
 
