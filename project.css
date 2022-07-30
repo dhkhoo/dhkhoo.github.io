@@ -23,6 +23,7 @@
 .name{
     color:white;
 }
+
 h1.white-text{
     text-align: center;
     color:white;
@@ -33,6 +34,11 @@ h2.white-text{
     text-align: center;
     color:white;
     padding-bottom: 70px;
+}
+
+h1, h2{
+    text-align: center;
+    margin:10px;
 }
 
 

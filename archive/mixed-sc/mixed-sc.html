@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href = "../../style.css">
-    <link href="../../plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../project.css">
     
     <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -24,36 +24,25 @@
 
       gtag('config', 'G-D8QK1297FE');
     </script>
-	<style>     
-        h1, h2{
-            text-align: center;
-        }
-        
-        .mixed-sc-mockup{
-            width:50%;
-            display:block; 
-            margin-left:auto; 
-            margin-right:auto;
-        }
+	<style>
 
-        .mixed-sc-draft{
+        #draft{
             width: 75%;
         }
 
         .final{
             margin:30px 0px;
             align-content: center;
-
         }
-        
-        @media(max-width: 1250px) {
-            h1{font-size:50px;}
-        }
-        
-        @media(max-width: 767px){
-            h1{line-height: 50px; font-size: 40px;}
-            h2{font-size:25px;}
 
+        /*because this doesn't have the new header with a picture*/
+        .nav-item > a:hover {
+            color:black !important;
+        }
+
+        /*Old Design*/
+        .name{
+            color:black;
         }
         
 	</style>
@@ -83,6 +72,7 @@
     </div>
 </div>
 </nav>
+
     <div class = "container">
         <h1>Mixed SC</h1>
         <h2>Graphic + Logo Design</h2>
@@ -108,17 +98,18 @@
                 <p>Over a semester, my team and I interviewed and worked with the members of Mixed SC to create a logo and aesthetic which represented them as an organization. During this time, we interviewed members of the organization and created multiple designs which we iterated on after getting feedback from the organization.</p>
                 <p> In the end, we created 2 designs: a logo design for their social media platforms and a t-shirt for their members. Here are my personal designs for the logo and t-shirt, with the logo being the main inspiration for their present day design.</p>
             </div>
-            <div class="col d-flex justify-content-center">
-                <a href="mixed-sc-draft.png" data-lightbox="picture-1" data-alt="Mixed SC Design Process"> <img src="mixed-sc-draft.png" class="mixed-sc-draft" alt = "Drafts for Logo and T-Shirt Design"></a>
+            <div class="col">
+                <img id="draft" src="mixed-sc-draft.png" class="pictures" alt = "Drafts for Logo and T-Shirt Design">
             </div>
         </div>
         <div class="row final">
             <div class="d-flex">
-                <a href="mixed-sc-mockup.png" data-lightbox="picture-2" data-alt="Mixed SC Mockup"> <img src="mixed-sc-mockup.png" class="mixed-sc-mockup" alt="Final Mockups for Logo and T-Shirt Design"></a>
+                <img src="mixed-sc-mockup.png" class="pictures" alt="Final Mockups for Logo and T-Shirt Design">
             </div>
         </div>
         
     </div>
+<hr>
     <div id="footer">
         <ul class="socials">
             <li class="social-icon"><a href="mailto:dhkhoo@usc.edu" target="_blank"><i class="fas fa-envelope grey"></i></a></li>
@@ -129,7 +120,6 @@
         <p>© 2020 Desiree Khoo</p>
     </div>
         
-    <script src="../../plugins/lightbox/js/lightbox-plus-jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
