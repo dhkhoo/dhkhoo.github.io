@@ -1,0 +1,97 @@
+.icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width:95px;
+    height:95px;
+}
+
+.nav-item > a:hover {
+    color:white !important;
+}
+
+.header{
+    background-repeat:no-repeat;
+    padding:0;
+    margin:0;
+    background-size: 100% auto;
+    position:relative;
+}
+
+.name{
+    color:white;
+}
+
+h1.white-text{
+    text-align: center;
+    color:white;
+    padding-top:100px;
+}
+
+h2.white-text{
+    text-align: center;
+    color:white;
+    padding-bottom: 70px;
+}
+
+h1, h2{
+    text-align: center;
+    margin:10px;
+}
+
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #90B5CB;
+    overflow: visible;
+    text-align: center;
+    height: 10px;
+}
+
+hr:after {
+    background: #fff;
+    content: '✽';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.view-more{
+    width: 350px;
+    margin: 10px;
+}
+
+.padding{
+    padding: 20px;
+}
+
+.pictures{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:20px;
+    object-fit: contain;
+}
+
+#intro, #problem, #research, #wireframing, #testing, #prototyping, #designs, #reflection{
+    padding: 50px 0px;
+}
+
+/* Mobile – Screen Sizes ≤ 767px */
+@media(max-width: 767px){
+    h1{line-height: 50px; font-size: 40px;}
+    h2{font-size:25px;}
+    .frames{
+        width: 50%;
+    }
+}
+
+@media(max-width: 1250px) {
+    h1{font-size:50px;}
+    .header{background-size:cover;}
+
+}
+

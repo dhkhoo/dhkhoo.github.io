@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Desiree Khoo | SC Live </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Desiree Khoo">
+    <meta name="description" content="Desiree Khoo's Website">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    
+    <link rel="icon" href="../../img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href = "../../style.css">
+    <link href="../../project.css" rel="stylesheet" />
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8QK1297FE"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-D8QK1297FE');
+    </script>
+    
+	<style>     
+
+        
+        .background{
+            background-color: #E5E5E5;
+            padding-top: 20px;
+        }
+
+        /*because this doesn't have the new header with a picture*/
+        .nav-item > a:hover {
+            color:black !important;
+        }
+
+        /*Old Design*/
+        .name{
+            color:black;
+        }
+
+        
+	</style>
+</head>
+<body>
+ 
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container-fluid">
+    <a class="navbar-brand name" href="../../index.html">
+        <img id="logo" src="../../img/logo-color.svg" alt="logo" class="d-inline-block align-text-top">
+    </a>
+    <span class="name">Desiree Khoo</span>
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="collapseNavbar">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../resume.html">RESUME</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+    <div class = "container">
+        <h1>SC Live Website</h1>
+        <h2>Student Organization Website Application</h2>
+
+        <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col">  
+                    <p> SC Live is an registered student organization at the University of Southern California which supports current students and alumni in streaming and content creation. Their current presence is on mainly on Twitch, as part of the Twitch Team, <a href="https://www.twitch.tv/team/usclive" target="_blank" class="dotted">USC Live</a>. </p>
+                    <p> As an online-facing organization, it was vital to develop a website which would collect online traffic and interest in our organization. It was also important to be able to feature our members, since they were strongly tied to the internet with their interests as well. </p>
+                    <p> This web application was a full-stack endeavor which uses both frontend languages such as HTML/CSS/JavaScript and back-end languages/scripts such as PHP and MySQL to store the data. It also connects to the <a href="https://dev.twitch.tv/docs/api/" target="_blank" class="dotted">Twitch API</a> to access real-time data, such as the bios of creators on the team and the Create/Remove/Update/Delete (CRUD) processes of adding new creators to the team on the website. </p>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <h3>Role</h3>
+                        <p>Full-Stack Web Designer</p>
+                    </div>
+                    <div class="row">
+                        <h3>Tools</h3>
+                        <p>HTML/CSS | JavaScript | PHP | FileZilla | cPanel | Twitch API | MySQL | Heroku</p>
+                    </div>
+                    <div class="row">
+                        <p>Feel free to <a href="mailto:dhkhoo@usc.edu" class="dotted">contact me</a> if you'd like to view the CRUD part of the web application, which is locked behind admin credientials.</p>
+                        <div class="d-grid gap-2 mx-auto view-more">
+                            <a type="button" class="btn btn-primary" href="https://desireekhoo-itp303.herokuapp.com/final_project/home.php" target="_blank">View the Interactive Prototype</a>
+                        </div>
+                    </div>
+                </div>
+                    
+        </div>
+
+
+        <div class="row row-cols-1 background">
+            <div class="col d-flex justify-content-center">
+                <img src="SC-Live-Home.png" alt="Header for SC Live" class="pictures">
+            </div>
+            <div class="col d-flex justify-content-center">
+                <img src="SC-Live-Streamer-Database.png" alt="Header for SC Live" class="pictures">
+            </div>
+            <div class="col d-flex justify-content-center">
+                <img src="SC-Live-Twitch-Team.png" alt="Header for SC Live" class="pictures">
+            </div>
+        </div>
+
+    </div>
+<hr>
+  <div id="footer">
+        <ul class="socials">
+            <li class="social-icon"><a href="mailto:dhkhoo@usc.edu" target="_blank"><i class="fas fa-envelope grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.instagram.com/desireekhoo/" target="_blank"><i class="fab fa-instagram grey"></i></a></li>
+            <li class="social-icon"><a href="https://www.linkedin.com/in/desireekhoo/" target="_blank"><i class="fab fa-linkedin-in grey"></i></a></li>
+            <li class="social-icon"><a href="https://github.com/dhkhoo" target="_blank"><i class="fab fa-github grey" ></i></a></li>
+        </ul>
+        <p>© 2022 Desiree Khoo</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
