@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!--thistle -->
+<html>
+<head>
+	<title> Travels With Sky | Blog </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Sky">
+    <meta name="description" content="Sky's Travel Blog, contact us confirmation page">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href = "style.css">
+    <link href="plugins/vidbg/vidbg.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Marck+Script&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png">
+	<style> 
+        .header{
+            height: 500px;
+        }
+        
+        body{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(img/contact-background.jpg);
+        }
+        
+        h1{
+            line-height: 200px;
+        }
+        
+        #content p{
+            text-align:center;
+            background-color: white;
+            border-radius: 5px;
+            padding: 75px 0px;
+            line-height: 3;
+        }
+        
+        #content{
+            height: 390px;
+        }
+
+        @media(max-width: 991px) {
+            h1{font-size:90px; line-height: 150px;}
+            #content{width:720px;}
+            #about{width:720px;}
+            #map{width: 690px;}
+            #locations ul{margin-left:0px;}
+            .header{height: 90%;}
+        }
+        
+        /* Mobile – Screen Sizes ≤ 767px */
+        @media(max-width: 767px){
+            body{font-size: 15px;}
+            #content{width:450px;}
+            #about{width:450px;}
+            #map{width: 80%;}
+            .header{height: 450px;}
+            #logo {margin-right: 0px;}
+            #nav li{width: 110px;}
+            #nav a{font-size:20px;}
+        }
+        
+	</style>
+</head>
+<body>
+    <div class="header">
+        <div id="nav">
+                <a href="index.html">
+                <img id="logo" src="img/logo.png" alt="logo">
+                </a>
+            <ul>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+		</div>
+        <div class="clearfloat"></div>
+        <h1> Thanks for Submitting! </h1>
+    </div>
+    <div id="content">
+        <p>I'll get back to you as soon as I can! Keep a look out in your inbox! <br> Click <a href="index.html">here</a> to return to the home page or click <a href="blog.html">here</a> to check out the blog!</p>
+    </div>
+    <div id="footer">
+        <p><a class="floatLeft" href="contact-us.html"> Contact Us </a></p>
+        <p class="floatRight">Copyright 2020</p>
+    </div> 
+</body>
+</html>

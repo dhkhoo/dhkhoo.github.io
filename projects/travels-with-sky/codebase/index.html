@@ -1,0 +1,209 @@
+<!DOCTYPE html> <!--thistle -->
+<html>
+<head>
+	<title> Travels With Sky | Home </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Sky">
+    <meta name="description" content="Sky's Travel Blog Home Page">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href = "style.css">
+    <link href="plugins/vidbg/vidbg.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Marck+Script&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png">
+	<style> 
+        
+        #about{
+            width:900px;
+        }
+        
+        #blog{
+            border: solid #C1919D 5px;
+            border-radius: 5px;
+            padding: 0px 15px;
+            margin-top: 20px;
+        }
+        
+        .blog-post1{
+            width: 410px;
+            float:left;
+            margin-right:30px;
+        }
+        
+        .blog-post2{
+            width: 410px;
+            float:left;
+        }
+        
+        
+        #map-wrapper{
+            text-align: center;
+        }
+        
+        #map{
+            width: 750px;
+            height:auto;
+            border: solid 5px #8B9FC1;
+            border-radius: 30px;
+        }
+        
+        .thumbnail{
+            width: 220px;
+            margin: 10px;
+            float:right;
+        }
+        
+        #locations ul{
+            margin-left: 25px;
+        }
+        
+        #blog a{
+            text-decoration: none;
+            color: black;
+            
+        }
+        
+        #blog a:hover{
+            color: #C1919D
+            
+        }
+        
+        h3{
+            margin-bottom:3px;
+        }
+        
+        
+        
+        /* Tablets - Screen Sizes ≤ 991px */
+        @media(max-width: 991px) {
+            h1{font-size:90px; line-height: 3;}
+            #content{width:720px;}
+            #about{width:720px;}
+            #map{width: 690px;}
+            #locations ul{margin-left:0px;}
+            .header{height: 90%;}
+            .blog-post1{float:none; width: 90%;}
+            .blog-post2{float:none; width: 90%;}
+        }
+        
+        /* Mobile – Screen Sizes ≤ 767px */
+        @media(max-width: 767px){
+            body{font-size: 15px;}
+            h1{line-height: 175px;}
+            #content{width:500px;}
+            #about{width:500px;}
+            #map{width: 80%;}
+            .header{height: 500px;}
+            #logo {margin-right: 0px;}
+            #nav li{width: 110px;}
+            #nav a{font-size:20px;}
+            .blog-post1{float:none; width: 90%;}
+            .blog-post2{float:none; width: 90%;}
+        }
+        
+	</style>
+</head>
+<body>
+    <div class="header">
+        <div id="nav">
+                <a href="index.html">
+                <img id="logo" src="img/logo.png" alt="logo">
+                </a>
+            <ul>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+				<li><a class="active" href="index.html">Home</a></li>
+			</ul>
+		</div>
+        <div class="clearfloat"></div>
+        <h1> Travels with Sky </h1>
+    </div>
+    
+    <div id = "content">
+        <div id="about">
+            <h2>About Me</h2>
+            <p>Hey! I'm Skylar, or as my friends call me, Sky! I'm a just your normal gal, except that fact that instead of traveling for a hobby, it's become the dream job that I never though I'd have a chance to do! I just recently started this blog, to record all of my travel adventures and mishaps, for anyone who's curious enough to read! </p>
+            <p>I've been traveling full-time since June 2019 and though my plans have been cut a bit short due to the current pandemic, I've been to 18 countries and plan to travel to more as soon as it's safer to head out there again! Until then, I'm planning sharing all of my past adventures through this blog, so make sure to keep an eye our for new posts! </p>
+            <p> Until next time, </p>
+            <p class="signiture">Sky</p>
+        </div>
+        <div id="map-wrapper">
+            <h2>Our Travel Map</h2>
+            <img id="map" src="img/world-map.png" alt="image of world map">
+        </div>
+        <div id = "locations">
+            <p>We don't have blogs for all of our travels, we'll be posting them as soon as their ready! Here's a list of places we've been to (includes places without currently published blog posts)!</p>
+            <ul class="floatLeft">
+                <li>Bahamas</li>
+                <li>Belize</li>
+                <li>Cambodia</li>
+                <li>China</li>
+            </ul>
+
+            <ul class="floatLeft">
+                <li>England</li>
+                <li>France</li>
+                <li>Haiti</li>
+                <li>Honduras</li>
+            </ul>
+
+            <ul class="floatLeft">
+                <li>Italy</li>
+                <li>Japan</li>
+                <li>Malaysia</li>
+                <li>Mexico</li>
+            </ul>
+
+            <ul class="floatLeft">
+                <li>Myammar</li>
+                <li>Puerto Rico</li>
+                <li>Singapore</li>
+                <li>Taiwan</li>
+            </ul>
+
+            <ul class="floatLeft">
+                <li>United States of America</li>
+                <li>Vietnam</li>
+                <li>And more coming soon!</li>
+            </ul>
+        </div>
+        <div class="clearfloat"></div>
+        
+        <div id="blog">
+        <h2>Latest Blog Posts</h2>
+            <p>Click on any of the titles to read the full blog posts!</p>
+            <div class="blog-post1">
+                <h3><a href="japan.html">Travels in Japan</a></h3>
+                <p class="blog-date">October 5th, 2020</p>
+                <img class="thumbnail" src="img/mtfuji.JPG" alt="mount fuji">
+                <p>Of all the places in the world which I wished to travel to, Japan is one which has always been on the top of my to-go-places. From the culture to the food, there's so many unique quirks about the country which hasn't been fully explored or discovered by western culture. With it being one of my top places to travel, it was the first country I traveled to when I decided to become a full-time traveler...</p>
+                </div>
+            <div class="blog-post2">
+                <h3>Western Mexico Cruise</h3>
+                <p class="blog-date">Preview: Full Blog to be posted soon</p>
+                <p>Traveling on a cruise has always been a dream of mine, and coming from California, 
+                <img class="thumbnail" src="img/mexicocruise.jpg" alt="two cruise ships on the sea">    
+                the first cruise I went on was one leaving from Long Beach, CA. It was on the Carnival Cruise line, aboard the Carnival Splendor, which on my travel, sailed down the west coast of Mexico and visiting ports such as Cabo San Lucas, Puerto Vallarta, and Mazatlan. I won't lie, there was a bit of rocky seas, but the adventure and experience totally made up for it...  </p>
+            </div>
+            <div class="clearfloat"></div>
+        </div>
+            
+        
+	
+    </div>
+    <div id="footer">
+        <p><a class="floatLeft" href="contact-us.html"> Contact Us </a></p>
+        <p class="floatRight">Copyright 2020</p>
+    </div>
+    
+    <script src="plugins/vidbg/vidbg.js"></script>
+
+    <script type="text/javascript">
+    var background = new vidbg('.header', {
+      mp4: 'img/header-background.mp4',
+        poster:'img/singapore.jpg',
+    })
+    </script>
+    
+    
+</body>
+</html>

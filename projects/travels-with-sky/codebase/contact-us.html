@@ -1,0 +1,115 @@
+<!DOCTYPE html> <!--thistle -->
+<html>
+<head>
+	<title> Travels With Sky | Contact Us </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Sky">
+    <meta name="description" content="Sky's Travel Blog, Contact Us">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href = "style.css">
+    <link href="plugins/vidbg/vidbg.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Marck+Script&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png">
+	<style> 
+        .header{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(img/contact-background.jpg);
+            height: 550px;
+        }
+        
+        h1{
+            line-height: 2;
+        }
+        
+        .row {
+            margin: 10px 0px;
+	   }
+        
+        #msg-id {
+            width:50%;
+	    }
+	
+        button {
+			padding: 5px 15px;
+	    }
+	
+        #submit-button {
+			background-color: #8B9FC1;
+			color: #FFF;
+        }
+        
+        input, textarea {
+            margin: 10px 0px;
+        }
+        
+        @media(max-width: 991px) {
+            h1{font-size:90px; line-height: 3;}
+            #content{width:720px;}
+            #about{width:720px;}
+            #map{width: 690px;}
+            #locations ul{margin-left:0px;}
+            .header{height: 90%;}
+        }
+        
+        /* Mobile – Screen Sizes ≤ 767px */
+        @media(max-width: 767px){
+            body{font-size: 15px;}
+            h1{line-height: 175px;}
+            #content{width:450px;}
+            #about{width:500px;}
+            #map{width: 80%;}
+            .header{height: 500px;}
+            #logo {margin-right: 0px;}
+            #nav li{width: 110px;}
+            #nav a{font-size:20px;}
+        }
+        
+	</style>
+</head>
+<body>
+    <div class="header">
+        <div id="nav">
+                <a href="index.html">
+                <img id="logo" src="img/logo.png" alt="logo">
+                </a>
+            <ul>
+                <li><a class="active" href="contact-us.html">Contact Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+		</div>
+        <div class="clearfloat"></div>
+        <h1> Contact Us </h1>
+    </div>
+    <div id="content"> 
+        <p>Have a business inquiry or just want to say hi? Drop me a message here!</p>
+        <form action="confirmation-page.html">
+            <div class="row">
+                <label for="name-id">Name</label> <br>
+                <input id="name-id" type="text" placeholder="Jane Doe" required>
+			</div> 
+
+			<div class="row">
+				<label for="email-id">Email</label> <br>
+				<input id="email-id" type="email" placeholder="jane@gmail.com" required>
+			</div> 
+
+			<div class="row">
+				<label for="msg-id">Message</label> <br>
+				<textarea id="msg-id" placeholder="Enter your message here!" required></textarea>
+			</div>
+
+			<div class="row">
+				<button id="submit-button" type="submit">Submit</button>
+				<button type="reset">Clear</button>
+			</div>
+
+		</form>
+    </div>
+    <div id="footer">
+        <p><a class="floatLeft" href="contact-us.html"> Contact Us </a></p>
+        <p class="floatRight">Copyright 2020</p>
+    </div>
+    
+    
+</body>
+</html>

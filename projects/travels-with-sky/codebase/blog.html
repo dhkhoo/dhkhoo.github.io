@@ -1,0 +1,135 @@
+<!DOCTYPE html> <!--thistle -->
+<html>
+<head>
+	<title> Travels With Sky | Blog </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Sky">
+    <meta name="description" content="Sky's Travel Blog, all the posted blogs">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href = "style.css">
+    <link href="plugins/vidbg/vidbg.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Marck+Script&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png">
+	<style> 
+        
+        .header{
+            background-image: url(img/golden-gate.JPG);
+            background-position: 100% 80%;;
+            height: 650px;
+        }
+        
+        h1{
+            line-height: 2;
+        }
+        
+        .blog{
+            width: 800px;
+            margin: auto;
+            border: 5px solid #3F4756;
+            border-radius: 2%;
+            padding: 15px;
+        }
+        
+        .blog-posted{
+            width: 800px;
+            margin: auto;
+            border: 5px solid #3F4756;
+            border-radius: 2%;
+            padding: 15px;
+        }
+        
+        .space{
+            margin-top: 15px;
+        }
+        
+        h2, .blog p, .blog-posted p{
+            margin:0px;
+        }
+        
+        a{
+            text-decoration: none;
+            color: black;
+            
+        }
+        
+        .blog-posted:hover{
+            border: 5px solid #C1919D;
+            
+        }
+        
+        #content > p{
+            text-align: center;
+        }
+        
+        @media(max-width: 991px) {
+            h1{font-size:90px; line-height: 3;}
+            #content{width:720px;}
+            #about{width:720px;}
+            #map{width: 690px;}
+            #locations ul{margin-left:0px;}
+            .header{height: 90%;}
+            .blog{float:none; width: 90%;}
+            .blog-posted{float:none; width: 90%;}
+        }
+        
+        /* Mobile – Screen Sizes ≤ 767px */
+        @media(max-width: 767px){
+            body{font-size: 15px;}
+            h1{line-height: 175px;}
+            #content{width:450px;}
+            #about{width:450px;}
+            #map{width: 80%;}
+            .header{height: 500px;}
+            #logo {margin-right: 0px;}
+            #nav li{width: 110px;}
+            #nav a{font-size:20px;}
+            .blog{float:none; width: 80%;}
+            .blog-posted{float:none; width: 80%;}
+        }
+        
+	</style>
+</head>
+<body>
+    <div class="header">
+        <div id="nav">
+                <a href="index.html">
+                <img id="logo" src="img/logo.png" alt="logo">
+                </a>
+            <ul>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+		</div>
+        <div class="clearfloat"></div>
+        <h1> Blog </h1>
+    </div>
+    <div id="content">
+        <p>Welcome to the blog! I'll be updating and adding new posts as often as I can, so keep a look out for future content. Hope you enjoy my adventures and maybe be inspired to take some of your own!</p>
+        <div class="blog">
+            <h2>Western Mexico Cruise</h2>
+            <p class="blog-date">Preview: Full Blog to be posted soon</p>
+            <img class="thumbnail" src="img/mexicocruise.jpg" alt="two cruise ships on the sea">
+            <p>Traveling on a cruise has always been a dream of mine, and coming from California, the first cruise I went on was one leaving from Long Beach, CA. It was on the Carnival Cruise line, aboard the Carnival Splendor, which on my travel, sailed down the west coast of Mexico and visiting ports such as Cabo San Lucas, Puerto Vallarta, and Mazatlan. I won't lie, there was a bit of rocky seas, but the adventure and experience totally made up for it... </p>
+        </div>
+        
+        <div class="space"></div>
+        
+        <a href="japan.html">
+        <div class="blog-posted">
+            <h2>Travels in Japan</h2>
+            <img class="thumbnail" src="img/mtfuji.JPG" alt="mount fuji">
+            <p class="blog-date">October 5th, 2020</p>
+            <p>Of all the places in the world which I wished to travel to, Japan is one which has always been on the top of my to-go-places. From the culture to the food, there's so many unique quirks about the country which hasn't been fully explored or discovered by western culture. With it being one of my top places to travel, it was the first country I traveled to when I decided to become a full-time traveler...</p>
+        </div>
+        </a>
+    </div>
+    
+    
+    <div id="footer">
+        <p><a class="floatLeft" href="contact-us.html"> Contact Us </a></p>
+        <p class="floatRight">Copyright 2020</p>
+    </div> 
+    
+</body>
+</html>

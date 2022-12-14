@@ -1,0 +1,132 @@
+.header{
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 1000px;
+    margin: 0px;
+}
+
+body{
+    margin:0px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+
+#content {
+    margin:0px;
+    width: 900px;
+    line-height:1.5;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    color:white;
+    line-height: 5;
+    margin:0px;
+    font-size: 140px;
+    font-family:"Marck Script", cursive;
+    text-shadow: 3px 5px 1px #8B9FC1;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+	
+.clearfloat {
+    clear: both;
+}
+
+.floatLeft{
+    float:left;
+}
+
+.floatRight{
+    float:right;
+}
+
+#logo{
+    margin:0px;
+    float:left;
+    width: 110px;
+    z-index: 100;    
+}
+
+#nav {
+    z-index: 100;
+    top:0px;
+    right:0px;
+    left:0px;
+    margin: 0px 20px;
+    padding-top: 5px;
+    margin:0px;
+    padding: 15px 20px;
+    list-style:none;
+}
+
+#nav li{
+    float:right;
+    text-align: center;
+    line-height: 50px;
+    list-style: none;
+    width: 160px;
+}
+
+#nav a{
+    font-family: 'Josefin Sans', sans-serif;
+    display:block;
+    text-decoration: none;
+    color:lightgray;
+    font-size: 28px;
+    
+}
+
+#nav a:hover {
+    color: #C1919D;
+}
+
+#nav a.active {
+    color:white;
+}
+
+.signiture{
+    font-family:"Marck Script", cursive;
+    font-size: 30px;
+    margin:0px;
+}
+
+.blog-date{
+    font-size:14px;
+    margin: 0px;
+    color: #3F4756;
+}
+
+.thumbnail{
+    width: 250px;
+    margin: 10px;
+    float:right;
+}
+
+
+#footer {
+    background-color: #8B9FC1;
+    line-height:50px;
+    height:50px;
+    margin:0px;
+    
+}
+	
+#footer p {
+    margin:0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+}
+
+#footer a{
+    text-decoration:none;
+    color:white;
+}
